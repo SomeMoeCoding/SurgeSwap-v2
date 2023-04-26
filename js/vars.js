@@ -154,17 +154,16 @@ const systemTokensBSC = [
         symbol: "BNB"
     },
     {
-        ca: "0x323B211505f8800ce21c7210e4d3F7Fd1291320A",
-        img: "img/system/taco.png",
-        name: "SPACE TACO",
-        symbol: "TACO"
-    },
-
-    {
         ca: "0xbC8F89861737C3B8c60a05165E0a5C5B8A137fAc",
         img: "img/system/lit.png",
         name: "Lightning",
         symbol: "$LIT"
+    },
+    {
+        ca: "0x323B211505f8800ce21c7210e4d3F7Fd1291320A",
+        img: "img/system/taco.png",
+        name: "SPACE TACO",
+        symbol: "TACO"
     },
 
     {
@@ -241,6 +240,12 @@ const systemTokensBSC = [
         name: "Ichimoku Inu",
         symbol: "MOKU"
     },
+    {
+        ca: "0x3c4B299253BC95908E3a9729Bf72F78CbE08F9Fc",
+        img: "img/system/surgecore.png",
+        name: "SurgeCore",
+        symbol: "CORE"
+    },
 ]
 const systemTokensETH = [
     {
@@ -302,6 +307,18 @@ const systemTokensARBI = [
         img: "img/system/eth.png",
         name: "Ethereum",
         symbol: "ETH"
+    },
+    {
+        ca: "0x722D8fA60Fe59a14aBd194D94F1090Aa473A8577",
+        img: "img/system/pepe.png",
+        name: "PEPE",
+        symbol: "PEPE"
+    },
+    {
+        ca: "0xc336137CDB167f8FC36b2e222d53ADf4EC4a0Fd5",
+        img: "img/system/surgecore.png",
+        name: "SurgeCore",
+        symbol: "CORE"
     },
 ];
 const systemTokensPOLY = [];
