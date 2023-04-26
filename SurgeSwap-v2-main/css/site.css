@@ -1,0 +1,467 @@
+/* Google Font Link */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+
+:root {
+    --green: #3CFD00;
+}
+
+@font-face {
+    font-family: 'Jakarta';
+    src: url('PlusJakartaSans-Regular.woff2') format('woff2'), url('PlusJakartaSans-Regular.woff') format('woff'), url("PlusJakartaSans-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+html {
+    background-color: #000000;
+    font-family: Roboto;
+}
+
+body {
+    min-height: 100vh;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(0, 0, 0, 0.19) 0%, #000000 100%);
+    color: #ffffff;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+.content {
+    z-index: 1;
+}
+
+.text-warning {
+    color: #FFC700 !important;
+}
+
+.warning-box {
+    border: solid 2px #FFC700;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    color: #ffffffa6;
+    margin:0.5rem;
+}
+
+.btn-outline-danger {
+    border-radius: 15px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: solid 2px #dc3545;
+    color: white;
+}
+
+.swap {
+}
+
+a:hover {
+    color: var(--green) !important;
+}
+
+a span:hover {
+    color: var(--green) !important;
+}
+
+a p:hover {
+    color: var(--green) !important;
+}
+
+
+.text-success {
+    color: var(--green) !important;
+}
+
+.text-warning {
+    color: #FF7A00 !important;
+}
+
+.btn-success {
+    color: #ffffff !important;
+    background: radial-gradient(50% 50% at 50% 50%, #3CFD00 0%, #49C522 100%);
+    padding: 0.75rem;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 1.35rem;
+    border-radius: 20px;
+}
+
+    .btn-success:hover {
+        color: black !important;
+    }
+
+    .btn-success:active, .btn-success:focus {
+        box-shadow: none;
+    }
+
+.btn-outline-success {
+    color: #ffffff !important;
+    border: var(--green) 2px solid;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 1.15rem;
+    border-radius: 20px;
+}
+
+    .btn-outline-success.active {
+        color: black !important;
+        border: var(--green) 2px solid;
+        background: radial-gradient(50% 50% at 50% 50%, #3CFD00 0%, #49C522 100%);
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 1.15rem;
+        border-radius: 20px;
+        box-shadow: none;
+    }
+
+    .btn-outline-success:hover {
+        color: #ffffff !important;
+        border: var(--green) 2px solid;
+        background: radial-gradient(50% 50% at 50% 50%, #3CFD00 0%, #49C522 100%);
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 1.15rem;
+        border-radius: 20px;
+        box-shadow: none;
+    }
+
+    .btn-outline-success:active, .btn-outline-success:focus {
+        box-shadow: none;
+    }
+
+.btn-block {
+    width: 100%;
+    max-width: 500px;
+}
+
+.form-control {
+    background: transparent;
+    border: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #ffffff;
+    padding-left: 1.25rem;
+}
+
+    .form-control:hover, .form-control:active, .form-control:focus, .form-control:disabled {
+        background: transparent;
+        box-shadow: none;
+        color: #ffffff;
+    }
+
+.input-group-append, .input-group-text {
+    border: none;
+    background: transparent;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #ffffff;
+}
+
+    .input-group-text img {
+        max-height: 25px;
+        max-width: 25px;
+        object-fit: contain;
+        margin-left: 0.8rem;
+        margin-right: 0.5rem;
+    }
+
+.input-group {
+    max-width: 500px;
+    background: rgba(228, 228, 228, 0.04);
+    border-radius: 20px;
+    height: 110px;
+    border-bottom: 1px solid rgba(228, 228, 228, 0.08);
+}
+
+.navbar {
+    position: absolute;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background: transparent !important;
+    width: 100%;
+    z-index: 999;
+}
+
+@media(max-width: 1000px) {
+    .navbar {
+        padding-top: 0.25rem;
+        padding-bottom: 0.25rem;
+    }
+}
+
+.robo {
+    font-family: 'Roboto' !important;
+}
+
+.cp {
+    cursor: pointer;
+}
+
+.fs-7 {
+    font-size: 0.8rem;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, span, select, input {
+    font-family: 'Roboto' !important;
+    color: #ffffff;
+}
+
+.nav-link {
+    font-weight: 600;
+    font-size: 1.13rem;
+}
+
+.btn-outline:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.rectangle {
+    position: absolute;
+    bottom: 20%;
+    left: 20%;
+}
+
+.text-green {
+    color: var(--green);
+}
+
+.currency-logo {
+    max-height: 17px;
+    max-width: 17px;
+    margin-right: 0.5rem; 
+}
+
+.search-icon {
+    max-height: 25px;
+    max-width: 25px;
+    margin-top: 8px;
+    margin-right: 12px;
+    border-radius:50%;
+}
+
+.search-balance {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.tokenrow {
+    border-radius: 10px;
+}
+
+    .tokenrow:hover {
+        background: rgba(255, 255, 255, 0.1);
+    }
+
+.td-none {
+    text-decoration: none !important;
+}
+
+.pe-none {
+    pointer-events: none;
+}
+
+.fr {
+    float: right;
+}
+
+.modal-content {
+    background: rgba(0, 0, 0, 0.95);
+    border: 1px solid rgba(60, 253, 0, 0.4);
+    box-shadow: 0px 4px 23px 19px rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+}
+
+.dropdown-menu {
+    background: rgba(0, 0, 0, 0.95);
+    border: 2px solid rgba(60, 253, 0, 0.4);
+    box-shadow: 0px 4px 23px 19px rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+}
+
+.dropdown-item {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+
+    .dropdown-item:hover {
+        color: #ffffff;
+        border-radius: 15px;
+        background-color: var(--green);
+        color: black !important;
+    }
+
+        .dropdown-item:hover span {
+            color: black !important;
+        }
+
+.chain-logo {
+    max-height: 36px;
+    max-width: 36px;
+    border-radius: 50%;
+    background-color: black;
+    padding: 0.1rem;
+}
+
+.chain-logo2 {
+    max-height: 30px;
+    max-width: 30px;
+}
+
+@media(min-width:1000px) {
+    .chain-logo {
+        max-height: 40px;
+        max-width: 40px;
+    }
+}
+
+#btn-chain {
+    border-radius: 25px;
+    padding: 0px;
+    padding-left: 1rem;
+    margin: 0;
+}
+
+.input-trans {
+    background: transparent;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px white;
+    background-color: darkgrey;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: radial-gradient(50% 50% at 50% 50%, #3CFD00 0%, #49C522 100%);
+    border-radius: 10px;
+}
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: radial-gradient(50% 50% at 50% 50%, #3CFD00 0%, #49C522 100%);
+    }
+
+.scrollable-element {
+    scrollbar-color: red yellow;
+}
+
+@media(max-width: 1000px) {
+    .hide-sm {
+        display: none !important;
+    }
+
+    #btn-chain {
+        padding: 0;
+    }
+}
+
+@media(max-width:375px) {
+    .hide-xs {
+        display: none;
+    }
+}
+
+@media(min-width:1001px){
+    .hide-pc{
+        display:none;
+    }
+}
+
+
+.spinning {
+    animation: spin 1.8s ease-in-out infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance: textfield; /* Firefox */
+}
+
+.balanceInfo {
+    max-width: 495px;
+    width: 100%;
+    align-items: end;
+    justify-content: end;
+}
+
+@media(max-width:525px){
+    .balanceInfo {
+        justify-content: space-between;
+        width:95%;
+    }
+
+}
+
+.form-check-input {
+    height: 1.25rem !important;
+    width: 2.5rem !important;
+    margin-top: 0.15rem;
+}
+
+    .form-check-input:checked {
+        background-color: var(--green);
+        border-color: var(--green);
+    }
+
+.btn-perc {
+    background: transparent;
+    color: darkgrey;
+    border: solid 2px #1f8500;
+    box-shadow: none;
+    border-radius: 20px;
+    font-weight: 500;
+    margin-left: 0 !IMPORTANT;
+    font-size: 0.9rem;
+}
+
+.form-control, .input-group-append{
+    margin-top:16px;
+}
+
+.perc-btns{
+    margin-top:-40px !important;
+    z-index: 999;
+}
