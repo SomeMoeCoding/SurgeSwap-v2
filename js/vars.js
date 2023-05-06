@@ -157,7 +157,13 @@ const systemTokensBSC = [
         ca: "0xbC8F89861737C3B8c60a05165E0a5C5B8A137fAc",
         img: "img/system/lit.png",
         name: "Lightning",
-        symbol: "$LIT"
+        symbol: "LIT"
+    },
+    {
+        ca: "0xcC8A1364Bd05e05402e8b28dAe554b5d6216E6B9",
+        img: "img/system/chad.png",
+        name: "Chad",
+        symbol: "CHAD"
     },
     {
         ca: "0x323B211505f8800ce21c7210e4d3F7Fd1291320A",
